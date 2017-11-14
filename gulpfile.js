@@ -3,7 +3,6 @@ const webserver = require('gulp-webserver');
 const sass = require('gulp-sass');
 const image = require('gulp-image');
 
-
 gulp.task('webserver', function() {
   gulp.src('app')
     .pipe(webserver({
