@@ -44,7 +44,7 @@ gulp.watch('resource/scss/**/*.scss', function() {
   gulp.run('sass');
 });
 
-gulp.watch('./resource/**/*.html', function () {
+gulp.watch('resource/**/*.html', function () {
   gulp.run('html');
 });
 
